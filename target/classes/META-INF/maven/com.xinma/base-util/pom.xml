@@ -15,7 +15,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<commons-lang3.version>3.4</commons-lang3.version>
-		<jackson.version>2.7.0</jackson.version>
+		<jackson.version>2.7.0</jackson.version>		
+		<servlet-api.version>3.1.0</servlet-api.version>
 		<!-- Test -->
 		<testng.version>6.8.21</testng.version>
 	</properties>
@@ -36,6 +37,12 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${servlet-api.version}</version>
 		</dependency>
 		
 		<dependency>
