@@ -1,1 +1,19 @@
-/target/
+# Eclipse project files
+.classpath
+.project
+.settings/
+.externalToolBuilders/
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+
+# Intellij project files
+*.iml
+*.iws
+.idea/
+
+# Others
+target/
+logs/
+test-output/
+*.bak
